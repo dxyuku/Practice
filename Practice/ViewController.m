@@ -18,6 +18,7 @@
     [super viewDidLoad];
     
     NSLog(@"Hiahiahia");
+    /** 什么鬼 */
     // Do any additional setup after loading the view, typically from a nib.
 }
 
