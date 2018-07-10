@@ -22,6 +22,8 @@
     
     self.view.backgroundColor = [UIColor redColor];
     [self testH];
+    
+    NSLog(@"没办法，我就是这么强大。");
 }
 
 - (void)testH {
