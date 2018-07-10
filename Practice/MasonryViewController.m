@@ -11,7 +11,7 @@
 #define MAS_SHORTHAND_GLOBALS
 #import <Masonry.h>
 @interface MasonryViewController ()
-
+@property (nonatomic,copy) NSDate *startDate;
 @end
 
 @implementation MasonryViewController
@@ -22,6 +22,18 @@
     
     self.view.backgroundColor = [UIColor orangeColor];
     [self test2];
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    
+    self.startDate = [NSDate date];
+    NSLog(@"%@",self.startDate);
+}
+
+- (void)viewWillDisappear:(BOOL)animated {
+    
+    double dat = -[self.startDate timeIntervalSinceDate:[NSDate date]];
+    NSLog(@"时间间隔为：%.2f秒",dat);
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
