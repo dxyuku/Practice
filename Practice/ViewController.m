@@ -23,6 +23,7 @@
     self.view.backgroundColor = [UIColor redColor];
     [self testH];
     
+    DXYLog(@"没办法，我就是这么强大。");
     NSLog(@"没办法，我就是这么强大。");
 }
 
