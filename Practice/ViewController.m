@@ -41,6 +41,8 @@
     for (int i = 0; i < 6; i ++) {
         NSLog(@"%d ",a[i]);
     }
+    
+    DXYLog(@"创建了joe分支");
 }
 
 - (void)testH {
