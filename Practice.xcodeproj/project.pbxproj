@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		315FBF8020FC77D400964135 /* MidiPlayerHomePageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 315FBF7B20FC77D400964135 /* MidiPlayerHomePageViewController.xib */; };
+		315FBF8120FC77D400964135 /* MidiPlayerHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 315FBF7C20FC77D400964135 /* MidiPlayerHomePageViewController.m */; };
+		315FBF8220FC77D400964135 /* CustomAlphabetLsitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 315FBF7F20FC77D400964135 /* CustomAlphabetLsitViewController.m */; };
+		315FBF8720FC77F600964135 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 315FBF8420FC77F600964135 /* home.png */; };
+		315FBF8820FC77F600964135 /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 315FBF8520FC77F600964135 /* search.png */; };
+		315FBF8920FC77F600964135 /* guitar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 315FBF8620FC77F600964135 /* guitar.jpg */; };
+		315FBF9D20FC795800964135 /* NSDate+DXYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 315FBF9520FC795800964135 /* NSDate+DXYExtension.m */; };
+		315FBF9E20FC795800964135 /* UIView+DXYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 315FBF9720FC795800964135 /* UIView+DXYExtension.m */; };
+		315FBF9F20FC795800964135 /* UIBarButtonItem+DXYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 315FBF9820FC795800964135 /* UIBarButtonItem+DXYExtension.m */; };
+		315FBFA020FC795800964135 /* UIImage+DXYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 315FBF9920FC795800964135 /* UIImage+DXYExtension.m */; };
 		31ADDF3820F3432800D2BF50 /* MasonryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31ADDF3720F3432800D2BF50 /* MasonryViewController.m */; };
 		31FBD21320ECCF34007FC249 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FBD21220ECCF34007FC249 /* AppDelegate.m */; };
 		31FBD21620ECCF34007FC249 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FBD21520ECCF34007FC249 /* ViewController.m */; };
@@ -37,6 +47,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		315FBF7B20FC77D400964135 /* MidiPlayerHomePageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MidiPlayerHomePageViewController.xib; sourceTree = "<group>"; };
+		315FBF7C20FC77D400964135 /* MidiPlayerHomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MidiPlayerHomePageViewController.m; sourceTree = "<group>"; };
+		315FBF7D20FC77D400964135 /* MidiPlayerHomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiPlayerHomePageViewController.h; sourceTree = "<group>"; };
+		315FBF7E20FC77D400964135 /* CustomAlphabetLsitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAlphabetLsitViewController.h; sourceTree = "<group>"; };
+		315FBF7F20FC77D400964135 /* CustomAlphabetLsitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAlphabetLsitViewController.m; sourceTree = "<group>"; };
+		315FBF8420FC77F600964135 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		315FBF8520FC77F600964135 /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		315FBF8620FC77F600964135 /* guitar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = guitar.jpg; sourceTree = "<group>"; };
+		315FBF9520FC795800964135 /* NSDate+DXYExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+DXYExtension.m"; sourceTree = "<group>"; };
+		315FBF9620FC795800964135 /* UIImage+DXYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+DXYExtension.h"; sourceTree = "<group>"; };
+		315FBF9720FC795800964135 /* UIView+DXYExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DXYExtension.m"; sourceTree = "<group>"; };
+		315FBF9820FC795800964135 /* UIBarButtonItem+DXYExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+DXYExtension.m"; sourceTree = "<group>"; };
+		315FBF9920FC795800964135 /* UIImage+DXYExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DXYExtension.m"; sourceTree = "<group>"; };
+		315FBF9A20FC795800964135 /* NSDate+DXYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+DXYExtension.h"; sourceTree = "<group>"; };
+		315FBF9B20FC795800964135 /* UIBarButtonItem+DXYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+DXYExtension.h"; sourceTree = "<group>"; };
+		315FBF9C20FC795800964135 /* UIView+DXYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DXYExtension.h"; sourceTree = "<group>"; };
 		3161275720F48F7000D5CAC5 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		31ADDF3620F3432800D2BF50 /* MasonryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasonryViewController.h; sourceTree = "<group>"; };
 		31ADDF3720F3432800D2BF50 /* MasonryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasonryViewController.m; sourceTree = "<group>"; };
@@ -95,6 +121,31 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		315FBF8320FC77F600964135 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				315FBF8420FC77F600964135 /* home.png */,
+				315FBF8520FC77F600964135 /* search.png */,
+				315FBF8620FC77F600964135 /* guitar.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		315FBF9420FC795800964135 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				315FBF9520FC795800964135 /* NSDate+DXYExtension.m */,
+				315FBF9620FC795800964135 /* UIImage+DXYExtension.h */,
+				315FBF9720FC795800964135 /* UIView+DXYExtension.m */,
+				315FBF9820FC795800964135 /* UIBarButtonItem+DXYExtension.m */,
+				315FBF9920FC795800964135 /* UIImage+DXYExtension.m */,
+				315FBF9A20FC795800964135 /* NSDate+DXYExtension.h */,
+				315FBF9B20FC795800964135 /* UIBarButtonItem+DXYExtension.h */,
+				315FBF9C20FC795800964135 /* UIView+DXYExtension.h */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		31FBD20520ECCF34007FC249 = {
 			isa = PBXGroup;
 			children = (
@@ -120,12 +171,19 @@
 		31FBD21020ECCF34007FC249 /* Practice */ = {
 			isa = PBXGroup;
 			children = (
+				315FBF9420FC795800964135 /* Category */,
+				315FBF8320FC77F600964135 /* Images */,
 				31FBD21120ECCF34007FC249 /* AppDelegate.h */,
 				31FBD21220ECCF34007FC249 /* AppDelegate.m */,
 				31FBD21420ECCF34007FC249 /* ViewController.h */,
 				31FBD21520ECCF34007FC249 /* ViewController.m */,
 				31ADDF3620F3432800D2BF50 /* MasonryViewController.h */,
 				31ADDF3720F3432800D2BF50 /* MasonryViewController.m */,
+				315FBF7E20FC77D400964135 /* CustomAlphabetLsitViewController.h */,
+				315FBF7F20FC77D400964135 /* CustomAlphabetLsitViewController.m */,
+				315FBF7D20FC77D400964135 /* MidiPlayerHomePageViewController.h */,
+				315FBF7C20FC77D400964135 /* MidiPlayerHomePageViewController.m */,
+				315FBF7B20FC77D400964135 /* MidiPlayerHomePageViewController.xib */,
 				3161275720F48F7000D5CAC5 /* PrefixHeader.pch */,
 				31FBD21720ECCF34007FC249 /* Main.storyboard */,
 				31FBD21A20ECCF35007FC249 /* Assets.xcassets */,
@@ -268,7 +326,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				31FBD21E20ECCF35007FC249 /* LaunchScreen.storyboard in Resources */,
+				315FBF8820FC77F600964135 /* search.png in Resources */,
+				315FBF8720FC77F600964135 /* home.png in Resources */,
 				31FBD21B20ECCF35007FC249 /* Assets.xcassets in Resources */,
+				315FBF8020FC77D400964135 /* MidiPlayerHomePageViewController.xib in Resources */,
+				315FBF8920FC77F600964135 /* guitar.jpg in Resources */,
 				31FBD21920ECCF34007FC249 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,10 +377,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				315FBF8120FC77D400964135 /* MidiPlayerHomePageViewController.m in Sources */,
 				31FBD21620ECCF34007FC249 /* ViewController.m in Sources */,
 				31FBD22120ECCF35007FC249 /* main.m in Sources */,
 				31ADDF3820F3432800D2BF50 /* MasonryViewController.m in Sources */,
+				315FBF9F20FC795800964135 /* UIBarButtonItem+DXYExtension.m in Sources */,
+				315FBFA020FC795800964135 /* UIImage+DXYExtension.m in Sources */,
+				315FBF8220FC77D400964135 /* CustomAlphabetLsitViewController.m in Sources */,
 				31FBD21320ECCF34007FC249 /* AppDelegate.m in Sources */,
+				315FBF9E20FC795800964135 /* UIView+DXYExtension.m in Sources */,
+				315FBF9D20FC795800964135 /* NSDate+DXYExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
+#import "CustomAlphabetLsitViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +18,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    CustomAlphabetLsitViewController *vc = [[CustomAlphabetLsitViewController alloc] init];
+    self.window.rootViewController = vc;
     
     return YES;
 }
