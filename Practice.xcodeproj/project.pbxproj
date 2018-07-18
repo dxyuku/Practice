@@ -7,6 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3109F5ED20FD8FEB007706A0 /* Ukulele.png in Resources */ = {isa = PBXBuildFile; fileRef = 3109F5D420FD8FEB007706A0 /* Ukulele.png */; };
+		3109F5EE20FD8FEB007706A0 /* Piano.png in Resources */ = {isa = PBXBuildFile; fileRef = 3109F5D520FD8FEB007706A0 /* Piano.png */; };
+		3109F5EF20FD8FEB007706A0 /* Drums.png in Resources */ = {isa = PBXBuildFile; fileRef = 3109F5D620FD8FEB007706A0 /* Drums.png */; };
+		3109F5F020FD8FEB007706A0 /* instrument_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 3109F5D720FD8FEB007706A0 /* instrument_bg.png */; };
+		3109F5F120FD8FEB007706A0 /* Country music.png in Resources */ = {isa = PBXBuildFile; fileRef = 3109F5D820FD8FEB007706A0 /* Country music.png */; };
+		3109F5F220FD8FEB007706A0 /* Rock music.png in Resources */ = {isa = PBXBuildFile; fileRef = 3109F5D920FD8FEB007706A0 /* Rock music.png */; };
+		3109F5F320FD8FEB007706A0 /* home_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3109F5DA20FD8FEB007706A0 /* home_icon.png */; };
+		3109F5F420FD8FEB007706A0 /* style_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 3109F5DB20FD8FEB007706A0 /* style_bg.png */; };
+		3109F5F520FD8FEB007706A0 /* Hip-Hop music.png in Resources */ = {isa = PBXBuildFile; fileRef = 3109F5DC20FD8FEB007706A0 /* Hip-Hop music.png */; };
+		3109F5F620FD8FEB007706A0 /* search_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3109F5DD20FD8FEB007706A0 /* search_icon.png */; };
+		3109F5F720FD8FEB007706A0 /* Jazz music.png in Resources */ = {isa = PBXBuildFile; fileRef = 3109F5DE20FD8FEB007706A0 /* Jazz music.png */; };
+		3109F5F820FD8FEB007706A0 /* Violin.png in Resources */ = {isa = PBXBuildFile; fileRef = 3109F5DF20FD8FEB007706A0 /* Violin.png */; };
+		3109F5F920FD8FEB007706A0 /* botton_bg2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3109F5E020FD8FEB007706A0 /* botton_bg2.png */; };
+		3109F5FA20FD8FEB007706A0 /* Punk music.png in Resources */ = {isa = PBXBuildFile; fileRef = 3109F5E120FD8FEB007706A0 /* Punk music.png */; };
+		3109F5FB20FD8FEB007706A0 /* botton_bg3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3109F5E220FD8FEB007706A0 /* botton_bg3.png */; };
+		3109F5FC20FD8FEB007706A0 /* botton_bg1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3109F5E320FD8FEB007706A0 /* botton_bg1.png */; };
+		3109F5FD20FD8FEB007706A0 /* home_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 3109F5E420FD8FEB007706A0 /* home_bg.png */; };
+		3109F5FE20FD8FEB007706A0 /* Pop music.png in Resources */ = {isa = PBXBuildFile; fileRef = 3109F5E520FD8FEB007706A0 /* Pop music.png */; };
+		3109F5FF20FD8FEB007706A0 /* Rap music.png in Resources */ = {isa = PBXBuildFile; fileRef = 3109F5E620FD8FEB007706A0 /* Rap music.png */; };
+		3109F60020FD8FEB007706A0 /* Guitar.png in Resources */ = {isa = PBXBuildFile; fileRef = 3109F5E720FD8FEB007706A0 /* Guitar.png */; };
+		3109F60120FD8FEB007706A0 /* Classical music.png in Resources */ = {isa = PBXBuildFile; fileRef = 3109F5E820FD8FEB007706A0 /* Classical music.png */; };
+		3109F60220FD8FEB007706A0 /* line.png in Resources */ = {isa = PBXBuildFile; fileRef = 3109F5E920FD8FEB007706A0 /* line.png */; };
+		3109F60320FD8FEB007706A0 /* home_page(1500_2668)_spec.png in Resources */ = {isa = PBXBuildFile; fileRef = 3109F5EC20FD8FEB007706A0 /* home_page(1500_2668)_spec.png */; };
+		3109F60620FD9030007706A0 /* ScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3109F60520FD9030007706A0 /* ScrollViewController.m */; };
+		3109F60920FDBAAA007706A0 /* DXYButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3109F60820FDBAAA007706A0 /* DXYButton.m */; };
+		3109F61620FE3372007706A0 /* SCIndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3109F61420FE3371007706A0 /* SCIndexViewController.m */; };
+		3109F62120FE33F7007706A0 /* SectionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3109F62020FE33F7007706A0 /* SectionItem.m */; };
+		3109F62320FE35A6007706A0 /* Indexes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3109F62220FE35A6007706A0 /* Indexes.plist */; };
 		315FBF8020FC77D400964135 /* MidiPlayerHomePageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 315FBF7B20FC77D400964135 /* MidiPlayerHomePageViewController.xib */; };
 		315FBF8120FC77D400964135 /* MidiPlayerHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 315FBF7C20FC77D400964135 /* MidiPlayerHomePageViewController.m */; };
 		315FBF8220FC77D400964135 /* CustomAlphabetLsitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 315FBF7F20FC77D400964135 /* CustomAlphabetLsitViewController.m */; };
@@ -17,6 +45,7 @@
 		315FBF9E20FC795800964135 /* UIView+DXYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 315FBF9720FC795800964135 /* UIView+DXYExtension.m */; };
 		315FBF9F20FC795800964135 /* UIBarButtonItem+DXYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 315FBF9820FC795800964135 /* UIBarButtonItem+DXYExtension.m */; };
 		315FBFA020FC795800964135 /* UIImage+DXYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 315FBF9920FC795800964135 /* UIImage+DXYExtension.m */; };
+		315FBFA320FC879600964135 /* SongDetailInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 315FBFA220FC879600964135 /* SongDetailInfoTableViewCell.m */; };
 		31ADDF3820F3432800D2BF50 /* MasonryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31ADDF3720F3432800D2BF50 /* MasonryViewController.m */; };
 		31FBD21320ECCF34007FC249 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FBD21220ECCF34007FC249 /* AppDelegate.m */; };
 		31FBD21620ECCF34007FC249 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FBD21520ECCF34007FC249 /* ViewController.m */; };
@@ -47,6 +76,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3109F5D420FD8FEB007706A0 /* Ukulele.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ukulele.png; sourceTree = "<group>"; };
+		3109F5D520FD8FEB007706A0 /* Piano.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Piano.png; sourceTree = "<group>"; };
+		3109F5D620FD8FEB007706A0 /* Drums.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Drums.png; sourceTree = "<group>"; };
+		3109F5D720FD8FEB007706A0 /* instrument_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instrument_bg.png; sourceTree = "<group>"; };
+		3109F5D820FD8FEB007706A0 /* Country music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Country music.png"; sourceTree = "<group>"; };
+		3109F5D920FD8FEB007706A0 /* Rock music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rock music.png"; sourceTree = "<group>"; };
+		3109F5DA20FD8FEB007706A0 /* home_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_icon.png; sourceTree = "<group>"; };
+		3109F5DB20FD8FEB007706A0 /* style_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = style_bg.png; sourceTree = "<group>"; };
+		3109F5DC20FD8FEB007706A0 /* Hip-Hop music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hip-Hop music.png"; sourceTree = "<group>"; };
+		3109F5DD20FD8FEB007706A0 /* search_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search_icon.png; sourceTree = "<group>"; };
+		3109F5DE20FD8FEB007706A0 /* Jazz music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Jazz music.png"; sourceTree = "<group>"; };
+		3109F5DF20FD8FEB007706A0 /* Violin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Violin.png; sourceTree = "<group>"; };
+		3109F5E020FD8FEB007706A0 /* botton_bg2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = botton_bg2.png; sourceTree = "<group>"; };
+		3109F5E120FD8FEB007706A0 /* Punk music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Punk music.png"; sourceTree = "<group>"; };
+		3109F5E220FD8FEB007706A0 /* botton_bg3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = botton_bg3.png; sourceTree = "<group>"; };
+		3109F5E320FD8FEB007706A0 /* botton_bg1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = botton_bg1.png; sourceTree = "<group>"; };
+		3109F5E420FD8FEB007706A0 /* home_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_bg.png; sourceTree = "<group>"; };
+		3109F5E520FD8FEB007706A0 /* Pop music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pop music.png"; sourceTree = "<group>"; };
+		3109F5E620FD8FEB007706A0 /* Rap music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rap music.png"; sourceTree = "<group>"; };
+		3109F5E720FD8FEB007706A0 /* Guitar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Guitar.png; sourceTree = "<group>"; };
+		3109F5E820FD8FEB007706A0 /* Classical music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Classical music.png"; sourceTree = "<group>"; };
+		3109F5E920FD8FEB007706A0 /* line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line.png; sourceTree = "<group>"; };
+		3109F5EC20FD8FEB007706A0 /* home_page(1500_2668)_spec.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_page(1500_2668)_spec.png"; sourceTree = "<group>"; };
+		3109F60420FD9030007706A0 /* ScrollViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrollViewController.h; sourceTree = "<group>"; };
+		3109F60520FD9030007706A0 /* ScrollViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollViewController.m; sourceTree = "<group>"; };
+		3109F60720FDBAAA007706A0 /* DXYButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DXYButton.h; sourceTree = "<group>"; };
+		3109F60820FDBAAA007706A0 /* DXYButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DXYButton.m; sourceTree = "<group>"; };
+		3109F61420FE3371007706A0 /* SCIndexViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCIndexViewController.m; sourceTree = "<group>"; };
+		3109F61520FE3371007706A0 /* SCIndexViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCIndexViewController.h; sourceTree = "<group>"; };
+		3109F61F20FE33F7007706A0 /* SectionItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SectionItem.h; path = Practice/SectionItem.h; sourceTree = SOURCE_ROOT; };
+		3109F62020FE33F7007706A0 /* SectionItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SectionItem.m; path = Practice/SectionItem.m; sourceTree = SOURCE_ROOT; };
+		3109F62220FE35A6007706A0 /* Indexes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Indexes.plist; sourceTree = "<group>"; };
 		315FBF7B20FC77D400964135 /* MidiPlayerHomePageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MidiPlayerHomePageViewController.xib; sourceTree = "<group>"; };
 		315FBF7C20FC77D400964135 /* MidiPlayerHomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MidiPlayerHomePageViewController.m; sourceTree = "<group>"; };
 		315FBF7D20FC77D400964135 /* MidiPlayerHomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiPlayerHomePageViewController.h; sourceTree = "<group>"; };
@@ -63,6 +124,8 @@
 		315FBF9A20FC795800964135 /* NSDate+DXYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+DXYExtension.h"; sourceTree = "<group>"; };
 		315FBF9B20FC795800964135 /* UIBarButtonItem+DXYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+DXYExtension.h"; sourceTree = "<group>"; };
 		315FBF9C20FC795800964135 /* UIView+DXYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DXYExtension.h"; sourceTree = "<group>"; };
+		315FBFA120FC879600964135 /* SongDetailInfoTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SongDetailInfoTableViewCell.h; sourceTree = "<group>"; };
+		315FBFA220FC879600964135 /* SongDetailInfoTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SongDetailInfoTableViewCell.m; sourceTree = "<group>"; };
 		3161275720F48F7000D5CAC5 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		31ADDF3620F3432800D2BF50 /* MasonryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasonryViewController.h; sourceTree = "<group>"; };
 		31ADDF3720F3432800D2BF50 /* MasonryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasonryViewController.m; sourceTree = "<group>"; };
@@ -121,9 +184,73 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		3109F5D120FD8FEB007706A0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3109F5D220FD8FEB007706A0 /* UI_DigiatalMusic_效果图切片 */,
+				3109F5EA20FD8FEB007706A0 /* UI_DigiatalMusic_效果图 */,
+				3109F5EB20FD8FEB007706A0 /* UI_DigiatalMusic_效果图标注 */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3109F5D220FD8FEB007706A0 /* UI_DigiatalMusic_效果图切片 */ = {
+			isa = PBXGroup;
+			children = (
+				3109F5D320FD8FEB007706A0 /* home_page */,
+			);
+			path = "UI_DigiatalMusic_效果图切片";
+			sourceTree = "<group>";
+		};
+		3109F5D320FD8FEB007706A0 /* home_page */ = {
+			isa = PBXGroup;
+			children = (
+				3109F5D420FD8FEB007706A0 /* Ukulele.png */,
+				3109F5D520FD8FEB007706A0 /* Piano.png */,
+				3109F5D620FD8FEB007706A0 /* Drums.png */,
+				3109F5D720FD8FEB007706A0 /* instrument_bg.png */,
+				3109F5D820FD8FEB007706A0 /* Country music.png */,
+				3109F5D920FD8FEB007706A0 /* Rock music.png */,
+				3109F5DA20FD8FEB007706A0 /* home_icon.png */,
+				3109F5DB20FD8FEB007706A0 /* style_bg.png */,
+				3109F5DC20FD8FEB007706A0 /* Hip-Hop music.png */,
+				3109F5DD20FD8FEB007706A0 /* search_icon.png */,
+				3109F5DE20FD8FEB007706A0 /* Jazz music.png */,
+				3109F5DF20FD8FEB007706A0 /* Violin.png */,
+				3109F5E020FD8FEB007706A0 /* botton_bg2.png */,
+				3109F5E120FD8FEB007706A0 /* Punk music.png */,
+				3109F5E220FD8FEB007706A0 /* botton_bg3.png */,
+				3109F5E320FD8FEB007706A0 /* botton_bg1.png */,
+				3109F5E420FD8FEB007706A0 /* home_bg.png */,
+				3109F5E520FD8FEB007706A0 /* Pop music.png */,
+				3109F5E620FD8FEB007706A0 /* Rap music.png */,
+				3109F5E720FD8FEB007706A0 /* Guitar.png */,
+				3109F5E820FD8FEB007706A0 /* Classical music.png */,
+				3109F5E920FD8FEB007706A0 /* line.png */,
+			);
+			path = home_page;
+			sourceTree = "<group>";
+		};
+		3109F5EA20FD8FEB007706A0 /* UI_DigiatalMusic_效果图 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "UI_DigiatalMusic_效果图";
+			sourceTree = "<group>";
+		};
+		3109F5EB20FD8FEB007706A0 /* UI_DigiatalMusic_效果图标注 */ = {
+			isa = PBXGroup;
+			children = (
+				3109F5EC20FD8FEB007706A0 /* home_page(1500_2668)_spec.png */,
+			);
+			path = "UI_DigiatalMusic_效果图标注";
+			sourceTree = "<group>";
+		};
 		315FBF8320FC77F600964135 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				3109F61F20FE33F7007706A0 /* SectionItem.h */,
+				3109F62020FE33F7007706A0 /* SectionItem.m */,
 				315FBF8420FC77F600964135 /* home.png */,
 				315FBF8520FC77F600964135 /* search.png */,
 				315FBF8620FC77F600964135 /* guitar.jpg */,
@@ -171,19 +298,29 @@
 		31FBD21020ECCF34007FC249 /* Practice */ = {
 			isa = PBXGroup;
 			children = (
+				3109F5D120FD8FEB007706A0 /* Resources */,
 				315FBF9420FC795800964135 /* Category */,
 				315FBF8320FC77F600964135 /* Images */,
 				31FBD21120ECCF34007FC249 /* AppDelegate.h */,
 				31FBD21220ECCF34007FC249 /* AppDelegate.m */,
+				3109F62220FE35A6007706A0 /* Indexes.plist */,
 				31FBD21420ECCF34007FC249 /* ViewController.h */,
 				31FBD21520ECCF34007FC249 /* ViewController.m */,
 				31ADDF3620F3432800D2BF50 /* MasonryViewController.h */,
 				31ADDF3720F3432800D2BF50 /* MasonryViewController.m */,
 				315FBF7E20FC77D400964135 /* CustomAlphabetLsitViewController.h */,
 				315FBF7F20FC77D400964135 /* CustomAlphabetLsitViewController.m */,
+				3109F61520FE3371007706A0 /* SCIndexViewController.h */,
+				3109F61420FE3371007706A0 /* SCIndexViewController.m */,
 				315FBF7D20FC77D400964135 /* MidiPlayerHomePageViewController.h */,
 				315FBF7C20FC77D400964135 /* MidiPlayerHomePageViewController.m */,
 				315FBF7B20FC77D400964135 /* MidiPlayerHomePageViewController.xib */,
+				315FBFA120FC879600964135 /* SongDetailInfoTableViewCell.h */,
+				315FBFA220FC879600964135 /* SongDetailInfoTableViewCell.m */,
+				3109F60420FD9030007706A0 /* ScrollViewController.h */,
+				3109F60520FD9030007706A0 /* ScrollViewController.m */,
+				3109F60720FDBAAA007706A0 /* DXYButton.h */,
+				3109F60820FDBAAA007706A0 /* DXYButton.m */,
 				3161275720F48F7000D5CAC5 /* PrefixHeader.pch */,
 				31FBD21720ECCF34007FC249 /* Main.storyboard */,
 				31FBD21A20ECCF35007FC249 /* Assets.xcassets */,
@@ -326,12 +463,36 @@
 			buildActionMask = 2147483647;
 			files = (
 				31FBD21E20ECCF35007FC249 /* LaunchScreen.storyboard in Resources */,
+				3109F5F320FD8FEB007706A0 /* home_icon.png in Resources */,
+				3109F5F220FD8FEB007706A0 /* Rock music.png in Resources */,
+				3109F60020FD8FEB007706A0 /* Guitar.png in Resources */,
+				3109F5F620FD8FEB007706A0 /* search_icon.png in Resources */,
+				3109F5FC20FD8FEB007706A0 /* botton_bg1.png in Resources */,
+				3109F5F120FD8FEB007706A0 /* Country music.png in Resources */,
 				315FBF8820FC77F600964135 /* search.png in Resources */,
+				3109F5FD20FD8FEB007706A0 /* home_bg.png in Resources */,
+				3109F5FE20FD8FEB007706A0 /* Pop music.png in Resources */,
 				315FBF8720FC77F600964135 /* home.png in Resources */,
+				3109F5FA20FD8FEB007706A0 /* Punk music.png in Resources */,
+				3109F60220FD8FEB007706A0 /* line.png in Resources */,
+				3109F5EE20FD8FEB007706A0 /* Piano.png in Resources */,
+				3109F5F820FD8FEB007706A0 /* Violin.png in Resources */,
+				3109F60120FD8FEB007706A0 /* Classical music.png in Resources */,
+				3109F62320FE35A6007706A0 /* Indexes.plist in Resources */,
+				3109F5FB20FD8FEB007706A0 /* botton_bg3.png in Resources */,
+				3109F5F020FD8FEB007706A0 /* instrument_bg.png in Resources */,
 				31FBD21B20ECCF35007FC249 /* Assets.xcassets in Resources */,
+				3109F60320FD8FEB007706A0 /* home_page(1500_2668)_spec.png in Resources */,
 				315FBF8020FC77D400964135 /* MidiPlayerHomePageViewController.xib in Resources */,
+				3109F5F520FD8FEB007706A0 /* Hip-Hop music.png in Resources */,
+				3109F5F420FD8FEB007706A0 /* style_bg.png in Resources */,
+				3109F5ED20FD8FEB007706A0 /* Ukulele.png in Resources */,
 				315FBF8920FC77F600964135 /* guitar.jpg in Resources */,
 				31FBD21920ECCF34007FC249 /* Main.storyboard in Resources */,
+				3109F5FF20FD8FEB007706A0 /* Rap music.png in Resources */,
+				3109F5F920FD8FEB007706A0 /* botton_bg2.png in Resources */,
+				3109F5EF20FD8FEB007706A0 /* Drums.png in Resources */,
+				3109F5F720FD8FEB007706A0 /* Jazz music.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,16 +538,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3109F62120FE33F7007706A0 /* SectionItem.m in Sources */,
 				315FBF8120FC77D400964135 /* MidiPlayerHomePageViewController.m in Sources */,
 				31FBD21620ECCF34007FC249 /* ViewController.m in Sources */,
 				31FBD22120ECCF35007FC249 /* main.m in Sources */,
+				3109F60620FD9030007706A0 /* ScrollViewController.m in Sources */,
 				31ADDF3820F3432800D2BF50 /* MasonryViewController.m in Sources */,
 				315FBF9F20FC795800964135 /* UIBarButtonItem+DXYExtension.m in Sources */,
+				3109F61620FE3372007706A0 /* SCIndexViewController.m in Sources */,
 				315FBFA020FC795800964135 /* UIImage+DXYExtension.m in Sources */,
 				315FBF8220FC77D400964135 /* CustomAlphabetLsitViewController.m in Sources */,
+				315FBFA320FC879600964135 /* SongDetailInfoTableViewCell.m in Sources */,
 				31FBD21320ECCF34007FC249 /* AppDelegate.m in Sources */,
 				315FBF9E20FC795800964135 /* UIView+DXYExtension.m in Sources */,
 				315FBF9D20FC795800964135 /* NSDate+DXYExtension.m in Sources */,
+				3109F60920FDBAAA007706A0 /* DXYButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

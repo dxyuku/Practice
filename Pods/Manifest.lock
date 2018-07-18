@@ -15,20 +15,28 @@ PODS:
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
   - Masonry (1.1.0)
+  - SCIndexView (2.1.1)
+  - YYModel (1.0.4)
 
 DEPENDENCIES:
   - AFNetworking
   - Masonry
+  - SCIndexView
+  - YYModel
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
     - Masonry
+    - SCIndexView
+    - YYModel
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SCIndexView: b68cded2054ddf3000cdaa56f17627dfb1041c78
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: c23d31b5242b57718f7d128d0acfe812a44b4312
+PODFILE CHECKSUM: 031f4c73ad2d200d1676035fcd9ab4fd5d5c534f
 
 COCOAPODS: 1.5.3

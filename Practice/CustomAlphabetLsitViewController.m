@@ -116,7 +116,7 @@ CGFloat kPadding = 20;
     
     int i = (int)bt.tag - 265;
     /** 滑动到指定位置 */
-    [self.songTableView selectRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:i] animated:YES scrollPosition:(UITableViewScrollPositionTop)];
+    [self.songTableView selectRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:i] animated:NO scrollPosition:(UITableViewScrollPositionTop)];
     NSLog(@"%li",(long)bt.tag);
 }
 

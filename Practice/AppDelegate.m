@@ -7,8 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "ScrollViewController.h"
 #import "ViewController.h"
 #import "CustomAlphabetLsitViewController.h"
+#import "SCIndexViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -19,8 +21,10 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    CustomAlphabetLsitViewController *vc = [[CustomAlphabetLsitViewController alloc] init];
-    self.window.rootViewController = vc;
+    SCIndexViewController *vc = [[SCIndexViewController alloc] init];
+    vc.indexViewStyle = SCIndexViewStyleDefault;
+    UINavigationController *naVC =  [[UINavigationController alloc] initWithRootViewController:vc];
+    self.window.rootViewController = naVC;
     
     return YES;
 }
