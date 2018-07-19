@@ -21,10 +21,10 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    SCIndexViewController *vc = [[SCIndexViewController alloc] init];
-    vc.indexViewStyle = SCIndexViewStyleDefault;
-    UINavigationController *naVC =  [[UINavigationController alloc] initWithRootViewController:vc];
-    self.window.rootViewController = naVC;
+    CustomAlphabetLsitViewController *vc = [[CustomAlphabetLsitViewController alloc] init];
+    //vc.indexViewStyle = SCIndexViewStyleDefault;
+    
+    self.window.rootViewController = vc;
     
     return YES;
 }

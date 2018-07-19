@@ -13,6 +13,8 @@ CGFloat kPadding = 20;
 @property (nonatomic,strong) UITableView *songTableView;
 /** 字母表视图 */
 @property (nonatomic,strong) UIView *alphabetView;
+/** 当前选中的字母(默认为A) */
+@property (nonatomic,strong) UIButton *currentSelectedButton;
 @end
 
 @implementation CustomAlphabetLsitViewController
@@ -39,18 +41,6 @@ CGFloat kPadding = 20;
     UITableView *songTableView = [[UITableView alloc] init];
     songTableView.delegate = self;
     songTableView.dataSource = self;
-//    UILabel* headerLabel = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, kScreenWidth, kAutoScaleX(100))];
-//    [headerLabel setText:@"城市列表"];
-//    headerLabel.textColor = [UIColor blackColor];
-//    headerLabel.backgroundColor = [UIColor cyanColor];
-//    headerLabel.textAlignment = NSTextAlignmentCenter;
-//    //设置UITableView的页眉控件
-//    [songTableView setTableHeaderView:headerLabel];
-    
-    UILabel* footerLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 320, 30)];
-    [footerLabel setText:@"以上城市房价太高"];
-    //设置UITableView页脚控件
-    [songTableView setTableFooterView:footerLabel];
     
     //设置行cell高（默认44px）
     [songTableView setRowHeight:50];
@@ -91,13 +81,13 @@ CGFloat kPadding = 20;
         [button addTarget:self action:@selector(buttonClick:) forControlEvents:(UIControlEventTouchUpInside)];
         [button setTitle:alphabetStr forState:(UIControlStateNormal)];
         [button setTitleColor:[UIColor blackColor] forState:(UIControlStateNormal)];
-        [button setTitleColor:[UIColor whiteColor] forState:(UIControlStateSelected)];
+//        button.backgroundColor = [UIColor cyanColor];
         button.tag = i + 200;
         
         /** 默认A按钮为选中状态 */
         
-        if (button.tag == 65) {
-            [button setSelected:YES];
+        if (i == 65) {
+            self.currentSelectedButton = button;
         }
         int col = i - 65;
         if (i < 78) {
@@ -117,7 +107,29 @@ CGFloat kPadding = 20;
     int i = (int)bt.tag - 265;
     /** 滑动到指定位置 */
     [self.songTableView selectRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:i] animated:NO scrollPosition:(UITableViewScrollPositionTop)];
+    [self.currentSelectedButton setTitleColor:[UIColor blackColor] forState:(UIControlStateNormal)];
+    self.currentSelectedButton.backgroundColor = [UIColor whiteColor];
+    [bt setTitleColor:[UIColor whiteColor] forState:(UIControlStateNormal)];
+    bt.backgroundColor = [UIColor orangeColor];
+    self.currentSelectedButton = bt;
     NSLog(@"%li",(long)bt.tag);
+}
+
+
+-(void)scrollViewDidScroll:(UIScrollView *)scrollView{
+
+
+
+    NSIndexPath *path =  [self.songTableView indexPathForRowAtPoint:CGPointMake(scrollView.contentOffset.x, scrollView.contentOffset.y)];
+
+    [self.currentSelectedButton setTitleColor:[UIColor blackColor] forState:(UIControlStateNormal)];
+    self.currentSelectedButton.backgroundColor = [UIColor whiteColor];
+    UIButton *button = (UIButton *)[self.alphabetView viewWithTag:path.section + 265];
+    [button setTitleColor:[UIColor whiteColor] forState:(UIControlStateNormal)];
+    button.backgroundColor = [UIColor orangeColor];
+    self.currentSelectedButton = button;
+
+
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
@@ -132,11 +144,13 @@ CGFloat kPadding = 20;
 
 /** 返回每组头标题 */
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
-    UIButton *bt = (UIButton *)[self.alphabetView viewWithTag:section + 265];
-    [bt setTitleColor:[UIColor greenColor] forState:(UIControlStateNormal)];
-    DXYLog(@"%@",[NSString stringWithFormat:@"第%ld分区开始",section]);
-    DXYLog(@"%ld",section);
-    return [NSString stringWithFormat:@"第%ld分区开始",section];
+
+//    UIButton *bt = (UIButton *)[self.alphabetView viewWithTag:section + 265];
+//    [bt setTitleColor:[UIColor greenColor] forState:(UIControlStateNormal)];
+    
+    return [NSString stringWithFormat:@"%c",(int)section + 65];
+//    NSString *headerViewString = [NSString stringWithFormat:@"%c",(int)section];
+//    return headerViewString;
 }
 
 //- (NSString *)tableView:(UITableView *)tableView titleForFooterInSection:(NSInteger)section {
