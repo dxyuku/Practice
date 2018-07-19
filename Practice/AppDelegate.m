@@ -11,6 +11,7 @@
 #import "ViewController.h"
 #import "CustomAlphabetLsitViewController.h"
 #import "SCIndexViewController.h"
+#import "ArtistsNameViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -21,7 +22,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     /** 创建firstBranch分支 */
-    CustomAlphabetLsitViewController *vc = [[CustomAlphabetLsitViewController alloc] init];
+    ArtistsNameViewController *vc = [[ArtistsNameViewController alloc] init];
     //vc.indexViewStyle = SCIndexViewStyleDefault;
     
     self.window.rootViewController = vc;

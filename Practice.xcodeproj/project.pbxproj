@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31056A822100C2AC009B2204 /* ArtistsNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31056A812100C2AC009B2204 /* ArtistsNameViewController.m */; };
+		31056A852100C5E9009B2204 /* ArtistsNameTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 31056A842100C5E9009B2204 /* ArtistsNameTableViewCell.m */; };
 		3109F5ED20FD8FEB007706A0 /* Ukulele.png in Resources */ = {isa = PBXBuildFile; fileRef = 3109F5D420FD8FEB007706A0 /* Ukulele.png */; };
 		3109F5EE20FD8FEB007706A0 /* Piano.png in Resources */ = {isa = PBXBuildFile; fileRef = 3109F5D520FD8FEB007706A0 /* Piano.png */; };
 		3109F5EF20FD8FEB007706A0 /* Drums.png in Resources */ = {isa = PBXBuildFile; fileRef = 3109F5D620FD8FEB007706A0 /* Drums.png */; };
@@ -76,6 +78,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		31056A802100C2AC009B2204 /* ArtistsNameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArtistsNameViewController.h; sourceTree = "<group>"; };
+		31056A812100C2AC009B2204 /* ArtistsNameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArtistsNameViewController.m; sourceTree = "<group>"; };
+		31056A832100C5E9009B2204 /* ArtistsNameTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArtistsNameTableViewCell.h; sourceTree = "<group>"; };
+		31056A842100C5E9009B2204 /* ArtistsNameTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArtistsNameTableViewCell.m; sourceTree = "<group>"; };
 		3109F5D420FD8FEB007706A0 /* Ukulele.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ukulele.png; sourceTree = "<group>"; };
 		3109F5D520FD8FEB007706A0 /* Piano.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Piano.png; sourceTree = "<group>"; };
 		3109F5D620FD8FEB007706A0 /* Drums.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Drums.png; sourceTree = "<group>"; };
@@ -310,6 +316,10 @@
 				31ADDF3720F3432800D2BF50 /* MasonryViewController.m */,
 				315FBF7E20FC77D400964135 /* CustomAlphabetLsitViewController.h */,
 				315FBF7F20FC77D400964135 /* CustomAlphabetLsitViewController.m */,
+				31056A802100C2AC009B2204 /* ArtistsNameViewController.h */,
+				31056A812100C2AC009B2204 /* ArtistsNameViewController.m */,
+				31056A832100C5E9009B2204 /* ArtistsNameTableViewCell.h */,
+				31056A842100C5E9009B2204 /* ArtistsNameTableViewCell.m */,
 				3109F61520FE3371007706A0 /* SCIndexViewController.h */,
 				3109F61420FE3371007706A0 /* SCIndexViewController.m */,
 				315FBF7D20FC77D400964135 /* MidiPlayerHomePageViewController.h */,
@@ -538,6 +548,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31056A822100C2AC009B2204 /* ArtistsNameViewController.m in Sources */,
 				3109F62120FE33F7007706A0 /* SectionItem.m in Sources */,
 				315FBF8120FC77D400964135 /* MidiPlayerHomePageViewController.m in Sources */,
 				31FBD21620ECCF34007FC249 /* ViewController.m in Sources */,
@@ -546,6 +557,7 @@
 				31ADDF3820F3432800D2BF50 /* MasonryViewController.m in Sources */,
 				315FBF9F20FC795800964135 /* UIBarButtonItem+DXYExtension.m in Sources */,
 				3109F61620FE3372007706A0 /* SCIndexViewController.m in Sources */,
+				31056A852100C5E9009B2204 /* ArtistsNameTableViewCell.m in Sources */,
 				315FBFA020FC795800964135 /* UIImage+DXYExtension.m in Sources */,
 				315FBF8220FC77D400964135 /* CustomAlphabetLsitViewController.m in Sources */,
 				315FBFA320FC879600964135 /* SongDetailInfoTableViewCell.m in Sources */,
