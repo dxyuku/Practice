@@ -20,7 +20,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    
+    /** 创建firstBranch分支 */
     CustomAlphabetLsitViewController *vc = [[CustomAlphabetLsitViewController alloc] init];
     //vc.indexViewStyle = SCIndexViewStyleDefault;
     
